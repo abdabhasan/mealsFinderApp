@@ -28,9 +28,8 @@ A web app that allows users to search for and discover different meals from arou
 2. Enter a meal name in the search bar and click the search button to search for a specific meal.
 3. Click the "Surprise Me!" button to generate a random meal suggestion.
 4. Click on a meal to view more information about it.
-5. Click the heart icon to add the meal to your favorites list.
-6. Click the favorites button to view your favorite meals.
-7. Click the "x" icon to remove a meal from your favorites list.
+5. Click the like icon to add the meal to your favorites list.
+6. Click the remove button to remove a meal from your favorites list.
 
 ### Contributing
 
