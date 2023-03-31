@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/abdabhasan/mealsFinderApp.git/static/css/main.c44306bc.css",
+    "main.js": "/abdabhasan/mealsFinderApp.git/static/js/main.0007f950.js",
+    "index.html": "/abdabhasan/mealsFinderApp.git/index.html",
+    "main.c44306bc.css.map": "/abdabhasan/mealsFinderApp.git/static/css/main.c44306bc.css.map",
+    "main.0007f950.js.map": "/abdabhasan/mealsFinderApp.git/static/js/main.0007f950.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c44306bc.css",
+    "static/js/main.0007f950.js"
+  ]
+}
