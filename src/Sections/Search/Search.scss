@@ -1,0 +1,58 @@
+@import "../../variables/stylingVars.scss";
+.btn {
+  cursor: pointer;
+  color: $white;
+  background: $primary-500;
+  border: transparent;
+  border-radius: $borderRadius;
+  letter-spacing: $letterSpacing;
+  padding: 0.375rem 0.75rem;
+  box-shadow: $shadow-1;
+  transition: $transition;
+  text-transform: capitalize;
+  display: inline-block;
+  &:hover {
+    background: $primary-700;
+    box-shadow: $shadow-3;
+  }
+  &-hipster {
+    color: $primary-500;
+    background: $primary-200;
+    &:hover {
+      color: $white;
+      background: $black;
+    }
+  }
+  &-block {
+    width: 100%;
+  }
+}
+
+.search-container {
+  height: 5rem;
+  background: $white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  form {
+    width: $view-width;
+    max-width: $max-width;
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    .form-input {
+      max-width: 200px;
+      padding: 0.375rem 0.75rem;
+      border-radius: $borderRadius;
+      background: $backgroundColor;
+      border: 1px solid $grey-200;
+    }
+    &::placeholder {
+      font-family: inherit;
+      color: $grey-400;
+    }
+    .btn {
+      font-size: 0.75rem;
+    }
+  }
+}

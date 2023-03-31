@@ -1,0 +1,10 @@
+@import "../../variables/stylingVars.scss";
+.favorite-item {
+  text-align: center;
+  .favorites-img {
+    width: 60px;
+    border-radius: 50%;
+    border: 5px solid $white;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,19 @@
+@import "../../variables/stylingVars.scss";
+.favorites {
+  background: $black;
+  color: $white;
+  padding: 1rem 0;
+
+  .favorites-content {
+    width: $view-width;
+    max-width: $max-width;
+    margin: 0 auto;
+  }
+
+  .favorites-container {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    height: 90px;
+  }
+}

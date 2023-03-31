@@ -1,0 +1,16 @@
+@import "../../variables/stylingVars.scss";
+.close-btn {
+  background: $red-dark;
+  color: $white;
+  border: none;
+  padding: 0.25rem 0.5rem;
+  font-size: $small-text;
+  border-bottom-left-radius: $borderRadius;
+  border-bottom-right-radius: $borderRadius;
+  cursor: pointer;
+  transition: $transition;
+
+  &:hover {
+    background: $red-light;
+  }
+}

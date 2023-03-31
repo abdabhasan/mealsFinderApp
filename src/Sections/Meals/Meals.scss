@@ -1,0 +1,21 @@
+@import "../../variables/stylingVars.scss";
+.section,
+.section-center {
+  padding: 3rem 0;
+  width: $view-width;
+  max-width: $max-width;
+  margin: 0 auto;
+
+  &.section-center {
+    display: grid;
+    gap: 2rem;
+
+    @media screen and (min-width: 776px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media screen and (min-width: 992px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}
