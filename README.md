@@ -24,7 +24,7 @@ A web app that allows users to search for and discover different meals from arou
 
 ### Usage
 
-1. Open the app in your browser by visiting http://localhost:3000.
+1. Open the app in your browser by visiting http://localhost:3000 or visit the deployed version on GitHub Pages at https://abdabhasan.github.io/mealsFinderApp/.
 2. Enter a meal name in the search bar and click the search button to search for a specific meal.
 3. Click the "Surprise Me!" button to generate a random meal suggestion.
 4. Click on a meal to view more information about it.
